@@ -1,0 +1,30 @@
+@media screen and (max-width: 100%) {
+  .views .container {
+    grid-template-columns: 2fr;
+  }
+}
+span {
+  color: rgb(9, 11, 12);
+  /* text-align: left;
+    margin-right: 120px; */
+  padding-left: 30px;
+}
+button {
+  width: 780px;
+  margin-left: 400px;
+  background-color: rgb(170, 186, 179);
+  margin-top: 10px;
+  padding: 18px;
+  border-style: none;
+  text-decoration: wavy;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+}
+div {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  margin-top: 20px;
+}
